@@ -1,0 +1,21 @@
+api = "0.10"
+
+[buildpack]
+id = "heroku-examples/yq"
+version = "0.0.1"
+name = "yq"
+homepage = "https://github.com/heroku-examples/buildpack-yq"
+
+[[buildpack.licenses]]
+type = "BSD-3-Clause"
+
+[[stacks]]
+id = "*"
+
+[[targets]]
+os = "linux"
+arch = "arm64"
+
+[[targets]]
+os = "linux"
+arch = "amd64"
